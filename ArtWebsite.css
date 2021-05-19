@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+body{
+    background: rgb(176, 255, 218);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(54, 54, 54);
+    margin: 0px;
+    padding: 0px;
+}
+/* navigation bar */
+.leftHeader{
+ display: inline-block;
+}
+.leftHeader .layoutButton{
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+/* menu button */
+.leftHeader .layoutButton a{
+    color: rgb(27, 27, 27);
+    text-decoration: none;
+    position: fixed;
+    font-size: 25px;
+}
+/* logo(aaart) */
+.leftHeader .layoutLogo a{
+    font-family:  'Press Start 2P', cursive;
+    display: inline;
+    position: fixed;
+    font-size: 70px;
+    color: rgb(46, 46, 46);
+    left:50px; 
+    top: 5px;
+    text-decoration: none;
+    z-index:10;
+}
+/* rightside of navgation */
+.rightHeader{
+    position: fixed;
+    right: 34px;
+    top: -10px;
+    display: inline-block;
+}
+/* menu bar cumstomizing */
+.rightHeader ul{
+ display: inline-block;
+}
+.rightHeader ul li{
+    display: inline-block;
+    font-size: 10px;
+}
+.rightHeader ul li a{
+    color: rgb(68, 68, 68);
+        text-decoration:overline;
+}
+/* some affects the menu bar */
+.rightHeader ul li a:hover, ul li a:active{
+    
+    background-color: rgb(65, 65, 65);
+    color: rgb(176, 255, 218);
+}
+/* main contant */
+main  .layoutImg img {
+ position: absolute;
+ top: 100px;
+ left: 180px;
+ width: 60%;
+ height: 70%;
+ display: block;
+ padding: 40px;
+}
+/* caption customizing */
+a figcaption{
+    position: absolute;
+   top: 520px;
+   left: 40%;
+   display: inline-block;
+   font-size: 10px;
+   text-decoration: none;
+   color: rgb(46, 46, 46);
+}
+/* next > scroll button */
+.scroll{
+    display: inline;
+    position: absolute;
+    top: 320px;
+    left: 78.2%;
+}
+.scroll a{
+    text-decoration: none;
+   color: rgb(46, 46, 46);
+}
+/* paragraph that say join our news letter*/
+p{
+    position: absolute;
+    top: 779px;
+    padding: 20% 0%  ;
+    left: 10%;
+    font-size: 10px;
+    font-family:Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans';
+} 
+/* its for that clickable email address  */
+P a{
+        border-left: 1px solid rgb(83, 82, 82);
+        border-top: 1px solid rgb(83, 82, 82);
+        text-decoration: none;
+        color: rgb(68, 67, 67);
+        padding:0px 300px 20px 2px;
+}
+/* footer of the website were we have some social media */
+.instagram a{
+    color:rgb(78, 78, 78);
+      text-decoration: none;
+    display: inline-block;
+    position: absolute;
+    top: 1500px;
+    left: 100px;
+    padding:50px 0;
+}
+/* animations */
+.instagram a:hover{
+    transform: scale(3)
+}
+
+.twitter a{
+    color:rgb(78, 78, 78);
+    text-decoration: none;
+    display: inline-block;
+    position: absolute;
+    top: 1200px;
+    left: 310px;
+    padding:50px 0;
+}
+/* animations */
+.twitter a:hover{
+    transform: scale(4)
+    
+}
+.facebook a{
+    color:rgb(78, 78, 78);
+    text-decoration: none;
+    display: inline-block;
+    position: absolute;
+    top: 1500px;
+    left: 510px;
+    padding:50px 0;
+}
+/* animations */
+.facebook a:hover{
+    transform: scale(4)
+}
+.printest a{
+    color:rgb(78, 78, 78);
+    text-decoration: none;
+    display: inline-block;
+    position: absolute;
+    top: 1200px;
+    left: 710px;
+    padding:50px 0  ;
+}
+/* animations */
+.printest a:hover{
+    transform: scale(4)
+}
+
+.youtube a{
+    color:rgb(78, 78, 78);
+    text-decoration: none;
+    display: inline-block;
+    position: absolute;
+    top: 1500px;
+    left: 930px;
+    padding:50px 0;
+}
+/* animations */
+.youtube a:hover{
+    transform: scale(3)
+}
+/* bottom one with address */
+.address p{
+  display: inline-block;
+  position: absolute;
+  top: 1700px;
+  left: 100px;
+  width: 300px;
+  padding:30px 400px 20px 5px;
+  border-top: 1px solid rgb(139, 189, 150);
+  font-size: 10px;
+}
